@@ -1,0 +1,93 @@
+/* LiveClocks.css */
+.clocks-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding: 3rem;
+  background: #f4f4f4;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  width: 120px;
+  height: 120px;
+  border: 6px solid #333;
+  border-radius: 50%;
+  position: relative;
+  background: white;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  transition: transform 0.05s linear;
+}
+
+.hour {
+  width: 4px;
+  height: 30px;
+  background: #000;
+  z-index: 3;
+}
+
+.minute {
+  width: 2px;
+  height: 40px;
+  background: #000;
+  z-index: 2;
+}
+
+.second {
+  width: 1px;
+  height: 50px;
+  background: red;
+  z-index: 1;
+}
+
+.center {
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Clock numbers */
+.number {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.number span {
+  display: inline-block;
+  transform: translateY(8px);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+
+.clcock1{
+  color: #749893;
+}

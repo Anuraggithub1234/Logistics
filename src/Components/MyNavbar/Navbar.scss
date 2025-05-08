@@ -1,0 +1,30 @@
+// .navbar-collapse {
+//   justify-content: flex-end;  // align items to the right even before expand
+// }
+
+.navbar-nav {
+  margin-left: auto; // ensures nav items go to the right
+}
+
+.navbar-collapse.show {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.my1{
+    margin-right: 3rem;
+}
+.my2 {
+    font-weight: bold;
+    font-family: ui-monospace;
+  }
+
+
+  @media (max-width: 991px) {
+    .navbar-nav {
+      align-items: flex-end;
+      text-align: right;
+      width: 100%;
+    }
+  }
+  

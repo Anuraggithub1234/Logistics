@@ -1,0 +1,53 @@
+.quote-container {
+    font-family: 'Segoe UI', sans-serif;
+    color: #d6d4d4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+  }
+  
+  
+  .quote-form {
+    max-width: 40%;
+
+     @media (max-width: 599px) {
+      max-width: 100%;
+  }
+  }
+  
+  // .quote-form form {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: flex-end;
+  //   gap: 15px;
+  // }
+
+  
+  
+  .quote-image {
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      display: block;
+    }
+  
+    @media (max-width: 599px) {
+      display: none; // hide image below 600px
+    }
+  }
+
+  .quote-image img {
+  height: 500px;
+  }
+  
+  .quote-form h3 {
+    color: #e63946;
+    font-weight: 400;
+  }
+ 
+  
