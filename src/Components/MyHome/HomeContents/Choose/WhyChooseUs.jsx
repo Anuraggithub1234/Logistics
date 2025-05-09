@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhyChooseUs.scss';
+import { Link } from 'react-router-dom';
 
 const features = [
   {
@@ -32,7 +33,7 @@ const WhyChooseUs = () => {
           </div>
         ))}
       </div>
-      <button className="btn btn-outline-danger">Read More</button>
+      <Link to="/about"><button className="btn btn-outline-danger">Read More</button></Link>
     </section>
   );
 };

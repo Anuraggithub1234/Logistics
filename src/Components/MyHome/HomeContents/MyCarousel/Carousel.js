@@ -14,34 +14,31 @@ function Carousel() {
 
                 <div className="carousel-inner carousel1 ">
 
-                    <div className="carousel-item " data-bs-interval="300000"  >
-                        <img src="/images/9.jpg" className="d-block w-100" alt="LOGO" />
+                    <div className="carousel-item " data-bs-interval="3000"  >
+                        <img src="/images/truck8.jpg" className="d-block w-100" alt="LOGO" />
                         <div className="carousel-caption1  d-md-block">
-                            <h2>AIR FREIGHT <br />TRANSPORTATION</h2>
+                            <h2>Over the Road <br />TRANSPORTATION</h2>
                             <button className="btn btn-danger">SERVICES</button>
-                            <button  className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
-                         
+                            <button className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
+
                         </div>
                     </div>
 
                     <div className="carousel-item" data-bs-interval="3000">
-                        <img src="/images/6.jpg" className="d-block w-100" alt="LOGO" />
+                        <img src="/images/truck21.jpg" className="d-block w-100" alt="LOGO" />
                         <div className="carousel-caption2  d-md-block">
-                            <h3>WORLD WIDE <br/>
-                                TRANSPORT SERVICE 
-                                </h3>
-                                <button className="btn btn-danger">SERVICES</button>
-                                <button  className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
+                            <h3> Last-Mile Delivery </h3>
+                            <button className="btn btn-danger">SERVICES</button>
+                            <button className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
                         </div>
                     </div>
 
                     <div className="carousel-item active" data-bs-interval="3000">
-                        <img src="/images/2.jpg" className="d-block w-100" alt="LOGO" />
+                        <img src="/images/truck1.jpg" className="d-block w-100" alt="LOGO" />
                         <div className="carousel-caption3  d-md-block">
-                            <h2>WORLD CLASS <br />
-                                SHIPPING SERVICES</h2>
+                            <h2>Dedicated Transportation</h2>
                             <button className="btn btn-danger">SERVICES</button>
-                            <button  className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
+                            <button className="btn btn-outline-danger crousel-btn">GET A QUOTE</button>
                         </div>
                     </div>
 

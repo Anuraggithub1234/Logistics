@@ -3,7 +3,7 @@
 // }
 
 .navbar-nav {
-  margin-left: auto; // ensures nav items go to the right
+  margin-left: auto; 
 }
 
 .navbar-collapse.show {
@@ -27,4 +27,8 @@
       width: 100%;
     }
   }
-  
+
+.bg-body-tertiary {
+    // --bs-bg-opacity: 1;
+    background-color: #ebebeb !important; 
+}

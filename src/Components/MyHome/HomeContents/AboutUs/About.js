@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './About.scss';
+import { Link } from 'react-router-dom';
 
 const tabs = [
   { key: 'mission', label: 'Our Mission', icon: '🚚' },
@@ -14,10 +15,14 @@ function AboutUs() {
     <div className="about-section">
       <div className="left">
         <h2>About Us</h2>
-        <p>Nav Logistics Inc. is a leading non-asset-based Third-Party Logistics (3PL) provider...</p>
-        <p>We address logistics challenges for companies worldwide, across various industries...</p>
-        <p>We excel in simplifying the logistics process, enabling you to concentrate...</p>
-        <button className="outline-btn">Read More</button>
+        <p>For over five years, Ghost Trucking Inc., Inc. has provided services to the ports of Oakland and Los Angeles/Long Beach. Our areas of expertise include heavy haul, over-the-road, intermodal, drayage, and yard storage solutions. More than 100+ corporate drivers and owner-operators can utilize all of these services.
+
+We have worked with several clients in the area since our beginnings. Experienced and amiable workers are the foundation of great service, which is why we take great care in choosing the finest candidates to join our team. We go above and above to build enduring connections with our clients in addition to completing projects effectively and on time.</p>
+        
+         <Link to="/about" >
+           <button className="outline-btn">Read More</button>
+          </Link>
+        
       </div>
 
       <div className="right">
